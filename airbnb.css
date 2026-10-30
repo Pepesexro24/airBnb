@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-wrap: anywhere; */
+}
+body {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.homepage {
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+}
+.allhome {
+  padding: 0px;
+  margin: 0PX;
+  text-align: center;
+}
+h1 {
+  background-color: antiquewhite;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+
+  
+  
+
+}
+.video {
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 300px;
+  padding:40px;
+  font-size: larger;
+}
+.placeholder {
+  width: 30px;
+  margin: 25px;
+}
+input {
+  width: 600px;
+  border: 5px solid;
+  border-radius: 900px;
+  outline: auto;
+  background-color: azure;
+  padding: 5px;
+  font: 10px;
+
+}
+.image-container img {
+  display: grid;
+  padding: 10px;
+  gap: 40px;
+  width: 30px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 240px;
+  padding:50px;
+  margin: 10px;
+
+}
+
+.item1 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  
+}
+.item-img {
+  /* width: 240px; */
+  height: 160px;
+  border-radius: 20px;
+  object-fit: cover;
+  width: fit-content;
+}
+.item-title1 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: serif;
+  text-align: left;
+  padding: 4px;
+}
+.item-details {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+.itemsdetails2 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+.itemsdetails3 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+.itemsdetails4 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+.itemsdetails5 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+.itemsdetails6 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+.itemdetails7 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+.itemsdetails8 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+.itemsdetails9 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+.itemsdetails10 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 8px;
+}
+
+@media (man-width: 1111px) {
+  .items-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+width: 25px;
+    margin: 0 auto;
+  }
+  input {
+    width: 300px;
+    border: 1px solid;
+    border-radius: 90px;
+    outline: auto;
+    background-color: azure;
+    padding: 30px;
+    font-size: 10px;
+  }
+}
+ .item1 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.item2 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.item3 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.item4 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.item5 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.item6 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.item7 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.item8 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.item9 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.item10 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px;
+  image-rendering: auto;
+}
+/* @media (min-width: 800px) {
+} */
